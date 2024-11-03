@@ -1,0 +1,22 @@
+*{
+    font-family: "Times New Roman", sans-serif;
+}
+
+html{
+    width: 60vw;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #aaaaaa;
+}
+
+h1{
+    font-size: 35px;
+    color: #ffaf9a;
+    top: 0;
+    left: 0;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
