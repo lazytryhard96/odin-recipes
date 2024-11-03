@@ -1,22 +1,64 @@
-*{
-    font-family: "Times New Roman", sans-serif;
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html{
     width: 60vw;
     max-width: 600px;
     margin: 0 auto;
-    background-color: #aaaaaa;
+    background-color: #505050;
+    color: #dfdfdf;
+    font-family: "Times New Roman", sans-serif;
 }
 
+.main-ul{
+    margin-left: 25px;
+}
+
+.recipe-ul{
+    margin-left: 18px;
+}
+
+.recipe-ol{
+    margin-left: 16px;
+}
+
+.recipe-ol, .recipe-ul{
+    margin-top: 8px;
+}
+
+/* body{
+    background-color: #000000;
+} */
+
 h1{
-    font-size: 35px;
-    color: #ffaf9a;
-    top: 0;
-    left: 0;
+    font-size: 50px;
+    color: #dfdfdf;
+    padding: 20px;
+    padding-left: 0;
 }
 
 img{
     height: 300px;
     width: auto;
+}
+
+a:link{
+    color: #dfdfdf;
+}
+
+a:visited{
+    color: #dfdfdf;
+}
+
+h2{
+    margin-top: 16px;
+}
+
+p{
+    margin-top: 8px;
 }
